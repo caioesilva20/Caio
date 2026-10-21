@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0b1020">
+<meta name="description" content="Criação de sites profissionais, modernos e responsivos para empresas, lojas, profissionais e projetos. Desenvolvido por Caio Emanuel Hoffmann Silva.">
+<title>Caio Hoffmann | Criação de Sites</title>
+<style>
+:root{--bg:#0b1020;--panel:#111a2f;--text:#f5f7ff;--muted:#aab5ce;--accent:#8b7cff;--accent2:#49e0c1;--line:rgba(255,255,255,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}.wrap{width:min(1120px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0}.brand{font-weight:800;letter-spacing:-.5px}.brand span{color:var(--accent2)}.navlinks{display:flex;gap:26px;color:var(--muted);font-size:.94rem}.navlinks a:hover{color:white}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 19px;border-radius:12px;font-weight:750;border:1px solid transparent;transition:.2s;cursor:pointer}.btn-primary{background:linear-gradient(110deg,var(--accent),#6a9bff);color:white;box-shadow:0 10px 30px #766bff2c}.btn-primary:hover{transform:translateY(-2px);filter:brightness(1.08)}.btn-outline{border-color:var(--line);background:#ffffff08}.hero{padding:76px 0 84px;display:grid;grid-template-columns:1.1fr .9fr;gap:52px;align-items:center}.eyebrow{display:inline-flex;gap:9px;align-items:center;color:var(--accent2);font-size:.82rem;font-weight:800;letter-spacing:1.4px;text-transform:uppercase}.dot{width:8px;height:8px;border-radius:50%;background:var(--accent2);box-shadow:0 0 15px var(--accent2)}h1{font-size:clamp(2.6rem,5.6vw,4.8rem);line-height:1.03;letter-spacing:-3px;margin:20px 0}.gradient{background:linear-gradient(100deg,#a99fff,#56e5ce);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{font-size:1.12rem;color:var(--muted);max-width:620px}.actions{display:flex;gap:13px;flex-wrap:wrap;margin:28px 0 22px}.tiny{font-size:.88rem;color:var(--muted)}.mockup{position:relative;padding:18px;border:1px solid var(--line);border-radius:25px;background:linear-gradient(145deg,#ffffff10,#ffffff03);box-shadow:0 30px 90px #0006;transform:rotate(1.5deg)}.browser{overflow:hidden;border:1px solid #ffffff16;border-radius:16px;background:#f5f7ff;color:#10162a}.browserbar{height:34px;background:#e6eaf5;display:flex;align-items:center;gap:6px;padding:0 12px}.browserbar i{width:7px;height:7px;border-radius:50%;background:#9da8bd}.webpreview{padding:24px;background:linear-gradient(135deg,#eef0ff,#d9fff5);min-height:330px}.previewnav{display:flex;justify-content:space-between;font-weight:850;font-size:.75rem}.previewtag{display:inline-block;margin-top:35px;padding:5px 9px;border-radius:20px;background:#fff;font-size:.65rem;color:#6b5ce7;font-weight:800}.webpreview h3{font-size:2rem;line-height:1.05;letter-spacing:-1px;margin:12px 0;color:#171a30}.webpreview p{font-size:.8rem;color:#586179;max-width:240px}.previewbutton{display:inline-block;background:#6c5ce7;color:white;padding:9px 12px;border-radius:7px;font-size:.7rem;font-weight:800}.previewcards{display:flex;gap:9px;margin-top:24px}.previewcards span{height:55px;flex:1;border-radius:9px;background:#ffffffb8;border:1px solid #fff}.float{position:absolute;right:-18px;bottom:34px;padding:13px 16px;border-radius:14px;background:#151e34;border:1px solid var(--line);box-shadow:0 12px 35px #0005;font-size:.82rem}.float strong{display:block;color:var(--accent2)}section{padding:72px 0}.section-head{max-width:650px;margin-bottom:34px}.kicker{font-size:.78rem;color:var(--accent2);font-weight:800;text-transform:uppercase;letter-spacing:1.5px}h2{font-size:clamp(2rem,4vw,3.1rem);letter-spacing:-1.5px;line-height:1.12;margin:10px 0 14px}.sub{color:var(--muted);margin:0}.services{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service{padding:24px;border-radius:18px;border:1px solid var(--line);background:linear-gradient(145deg,#ffffff08,#ffffff03)}.ico{width:44px;height:44px;display:grid;place-items:center;border-radius:12px;background:#8b7cff20;color:#b6adff;font-size:1.25rem;margin-bottom:17px}.service h3{margin:0 0 8px;font-size:1.1rem}.service p{margin:0;color:var(--muted);font-size:.95rem}.band{border-block:1px solid var(--line);background:#ffffff04}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:25px}.stepnum{font-size:.8rem;color:var(--accent2);font-weight:900;letter-spacing:1px}.step h3{margin:7px 0}.step p{color:var(--muted);margin:0}.about{display:grid;grid-template-columns:.75fr 1.25fr;gap:48px;align-items:center}.aboutbox{padding:28px;border:1px solid var(--line);border-radius:22px;background:radial-gradient(circle at 20% 10%,#8b7cff30,transparent 60%),var(--panel)}.monogram{font-size:3.3rem;font-weight:900;letter-spacing:-3px}.aboutbox p{color:var(--muted);margin-bottom:0}.checks{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}.check{color:#dfe5f8;font-size:.92rem}.check::before{content:"✓";color:var(--accent2);font-weight:900;margin-right:9px}.contact{padding:42px;border-radius:26px;background:linear-gradient(120deg,#8173f7,#4d9de8);display:flex;align-items:center;justify-content:space-between;gap:28px}.contact h2{margin-top:0}.contact p{margin-bottom:0;color:#f0f3ff;max-width:570px}.contact .btn{background:#fff;color:#151a30;white-space:nowrap}.faq{max-width:800px}.faq details{border-bottom:1px solid var(--line);padding:18px 0}.faq summary{cursor:pointer;font-weight:750}.faq details p{color:var(--muted);margin-bottom:0}footer{padding:28px 0;color:var(--muted);font-size:.86rem;border-top:1px solid var(--line)}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:800px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding-top:48px;gap:35px}.mockup{max-width:520px;margin:auto}.services{grid-template-columns:1fr 1fr}.about{grid-template-columns:1fr;gap:24px}.steps{grid-template-columns:1fr}.contact{align-items:flex-start;flex-direction:column;padding:30px}.float{right:-6px}.hero h1{letter-spacing:-2px}}
+@media(max-width:520px){.services{grid-template-columns:1fr}.webpreview{min-height:290px}.webpreview h3{font-size:1.7rem}.mockup{padding:10px}.checks{grid-template-columns:1fr}.actions .btn{width:100%}section{padding:54px 0}}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+  <a class="brand" href="#inicio">CAIO<span>.</span>WEB</a>
+  <nav class="navlinks" aria-label="Navegação principal"><a href="#servicos">Serviços</a><a href="#processo">Como funciona</a><a href="#sobre">Sobre mim</a><a href="#contato">Contato</a></nav>
+  <a class="btn btn-outline" href="#contato">Vamos conversar ↗</a>
+</header>
+<main>
+<section class="wrap hero" id="inicio">
+  <div>
+    <div class="eyebrow"><span class="dot"></span> Sites feitos para sua ideia crescer</div>
+    <h1>Sua ideia merece um site <span class="gradient">incrível.</span></h1>
+    <p class="lead">Crio sites modernos, bonitos e adaptados para celular, ajudando pessoas e empresas a fortalecer sua presença na internet e conquistar novas oportunidades.</p>
+    <div class="actions"><a class="btn btn-primary" href="#contato">Quero tirar meu projeto do papel <span>↗</span></a><a class="btn btn-outline" href="#servicos">Conhecer serviços ↓</a></div>
+    <p class="tiny">✦ Atendimento personalizado · ✦ Design responsivo · ✦ Soluções para diferentes objetivos</p>
+  </div>
+  <div class="mockup" aria-label="Prévia ilustrativa de um site">
+    <div class="browser"><div class="browserbar"><i></i><i></i><i></i></div><div class="webpreview">
+      <div class="previewnav"><span>SEU NEGÓCIO</span><span>MENU　☰</span></div>
+      <span class="previewtag">UMA NOVA EXPERIÊNCIA</span>
+      <h3>Presença digital<br>que faz a diferença.</h3>
+      <p>Um site pensado para apresentar sua marca ao mundo.</p>
+      <span class="previewbutton">Conheça nosso trabalho ↗</span>
+      <div class="previewcards"><span></span><span></span><span></span></div>
+    </div></div>
+    <div class="float">Design + tecnologia<strong>Feito para você ✦</strong></div>
+  </div>
+</section>
+<section class="band" id="servicos"><div class="wrap">
+  <div class="section-head"><div class="kicker">O que eu posso criar</div><h2>Um site para cada objetivo.</h2><p class="sub">Cada projeto é desenvolvido de acordo com sua ideia, seu público e o que você precisa alcançar.</p></div>
+  <div class="services">
+    <article class="service"><div class="ico">✦</div><h3>Sites institucionais</h3><p>Apresente sua empresa, seus serviços, diferenciais e formas de contato com profissionalismo.</p></article>
+    <article class="service"><div class="ico">▤</div><h3>Landing pages</h3><p>Páginas objetivas para divulgar produtos, campanhas, serviços ou captar clientes.</p></article>
+    <article class="service"><div class="ico">🛍</div><h3>Lojas virtuais</h3><p>Uma vitrine online para apresentar seus produtos e estruturar sua presença no comércio digital.</p></article>
+    <article class="service"><div class="ico">▣</div><h3>Portfólios profissionais</h3><p>Mostre seus projetos, habilidades e experiências em um site com a sua identidade.</p></article>
+    <article class="service"><div class="ico">☰</div><h3>Blogs e páginas de conteúdo</h3><p>Compartilhe artigos, novidades e informações com uma apresentação organizada.</p></article>
+    <article class="service"><div class="ico">⌘</div><h3>Projetos personalizados</h3><p>Tem outra ideia? Podemos conversar sobre páginas especiais e soluções sob medida para sua necessidade.</p></article>
+  </div>
+</div></section>
+<section id="processo"><div class="wrap">
+  <div class="section-head"><div class="kicker">Simples e transparente</div><h2>Do primeiro papo ao site no ar.</h2><p class="sub">Você acompanha as etapas e sabe o que estamos construindo juntos.</p></div>
+  <div class="steps">
+    <div class="step"><div class="stepnum">01 / CONVERSA</div><h3>Entendo sua ideia</h3><p>Você me conta sobre seu negócio, seu público e o que espera do site.</p></div>
+    <div class="step"><div class="stepnum">02 / CRIAÇÃO</div><h3>Planejo e desenvolvo</h3><p>Definimos a proposta visual e os recursos necessários para o seu projeto.</p></div>
+    <div class="step"><div class="stepnum">03 / ENTREGA</div><h3>Revisamos juntos</h3><p>Você confere o resultado e alinhamos os ajustes combinados para a entrega.</p></div>
+  </div>
+</div></section>
+<section class="band" id="sobre"><div class="wrap about">
+  <div class="aboutbox"><div class="monogram">CHS<span class="gradient">.</span></div><div class="kicker">Desenvolvimento web</div><p>Ideias transformadas em experiências digitais.</p></div>
+  <div><div class="kicker">Prazer, sou o Caio</div><h2>Seu projeto merece atenção de verdade.</h2><p class="sub">Sou Caio Emanuel Hoffmann Silva e trabalho com criação de sites para diferentes necessidades. Meu objetivo é entender o que você quer comunicar e transformar essa ideia em uma presença digital clara, atraente e funcional.</p><div class="checks"><div class="check">Layout adaptado para celular</div><div class="check">Visual moderno e organizado</div><div class="check">Projeto alinhado ao seu objetivo</div><div class="check">Comunicação direta e personalizada</div></div></div>
+</div></section>
+<section><div class="wrap">
+  <div class="section-head"><div class="kicker">Dúvidas comuns</div><h2>Antes de começar</h2></div>
+  <div class="faq">
+    <details><summary>Você faz qualquer tipo de site?</summary><p>Posso desenvolver diferentes tipos de sites, como páginas para empresas, landing pages, portfólios, blogs, lojas virtuais e projetos personalizados. A viabilidade, os recursos e o prazo são avaliados conforme cada necessidade.</p></details>
+    <details><summary>Quanto custa criar um site?</summary><p>O valor depende do tipo de site, da quantidade de páginas, das funcionalidades e do conteúdo. Entre em contato para explicar sua ideia e receber uma proposta de acordo com o projeto.</p></details>
+    <details><summary>O site funciona no celular?</summary><p>Sim. A proposta é criar um layout responsivo, pensado para se adaptar a celulares, tablets e computadores.</p></details>
+    <details><summary>Como faço para começar?</summary><p>É só entrar em contato, contar o que você precisa e conversar sobre os próximos passos.</p></details>
+  </div>
+</div></section>
+<section class="wrap" id="contato"><div class="contact"><div><div class="kicker" style="color:#e5fffb">VAMOS CRIAR ALGO?</div><h2>Seu próximo site começa com uma conversa.</h2><p>Conte sua ideia, mesmo que ela ainda esteja no começo. Vamos entender o que faz sentido para você.</p></div><a class="btn" href="https://wa.me/5500000000000?text=Ol%C3%A1%2C%20Caio!%20Quero%20conversar%20sobre%20a%20cria%C3%A7%C3%A3o%20de%20um%20site." onclick="if(this.href.includes('5500000000000')){alert('Edite o número do WhatsApp no arquivo do site antes de publicar.');return false;}">Falar pelo WhatsApp ↗</a></div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> Caio Emanuel Hoffmann Silva. Todos os direitos reservados.</span><span>Criação de sites com propósito e personalidade.</span></div></footer>
+<script>document.getElementById('year').textContent=new Date().getFullYear();</script>
+</body>
+</html>
